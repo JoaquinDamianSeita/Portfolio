@@ -2,88 +2,91 @@ import React from "react";
 
 function Works() {
   return (
-    <div class="container light-blue mt-3 shadow-lg">
-      <h1 class="display-5 fw-bold text-center">Portfolio</h1>
+    <div className="container sky my-5 px-5 shadow-ext" id="portfolio">
+      <h1 className="display-5 fw-bold text-center">Portfolio</h1>
       <img
-        class="d-block mx-auto mb-4 mt-3"
+        className="d-block mx-auto mb-4 mt-3"
         src={process.env.PUBLIC_URL + "/images/divider.svg"}
         alt="divider"
       />
-      <div class="row row-cols-1 row-cols-sm-2 row-cols-md-3 g-3 ">
-        <div class="col text-center">
-          <div class="card shadow-xl border-dark">
-            <div class="card-body light-blue">
-              <p class="card-text">
+      <div className="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-3 my-5">
+        <div className="col text-center">
+          <div className="card" style={{ backgroundColor: "#28b5b5", border:0 }}>
+            <img
+              className="d-block mx-auto sky my-4"
+              src={process.env.PUBLIC_URL + "/images/admin.png"}
+              alt="coder"
+              width="150"
+              height="150"
+            />
+            <div className="card-body sky">
+              <p className="card-text">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
                 longer. ADMIN MERN APP
               </p>
-                <div class="btn-group">
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-primary"
-                  >
-                    App
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-primary"
-                  >
-                    Code
-                  </button>
-                </div>
+              <div className="btn-group">
+                <button type="button" className="btn btn-sm btn-outline-primary">
+                  App
+                </button>
+                <button type="button" className="btn btn-sm btn-outline-primary">
+                  Code
+                </button>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col text-center">
-          <div class="card shadow-xl border-dark">
-            <div class="card-body light-blue">
-              <p class="card-text">
+        <div className="col text-center">
+          <div className="card" style={{ backgroundColor: "#28b5b5",border:0 }}>
+            <img
+              className="d-block mx-auto sky my-4"
+              src={process.env.PUBLIC_URL + "/images/tindog.png"}
+              alt="coder"
+              width="150"
+              height="150"
+            />
+            <div className="card-body sky">
+              <p className="card-text">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
-                longer. ADMIN MERN APP
+                longer. BLOG
               </p>
-                <div class="btn-group">
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-primary"
-                  >
-                    App
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-primary"
-                  >
-                    Code
-                  </button>
-                </div>
+              <div className="btn-group">
+                <button type="button" className="btn btn-sm btn-outline-primary">
+                  App
+                </button>
+                <button type="button" className="btn btn-sm btn-outline-primary">
+                  Code
+                </button>
+              </div>
             </div>
           </div>
         </div>
 
-        <div class="col text-center">
-          <div class="card shadow-xl border-dark">
-            <div class="card-body light-blue">
-              <p class="card-text">
+        <div className="col text-center">
+          <div className="card" style={{ backgroundColor: "#28b5b5",border:0 }}>
+            <img
+              className="d-block mx-auto sky my-4"
+              src={process.env.PUBLIC_URL + "/images/blog.png"}
+              alt="coder"
+              width="150"
+              height="150"
+            />
+            <div className="card-body sky">
+              <p className="card-text">
                 This is a wider card with supporting text below as a natural
                 lead-in to additional content. This content is a little bit
-                longer. ADMIN MERN APP
+                longer. TINDOG
               </p>
-                <div class="btn-group">
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-primary"
-                  >
-                    App
-                  </button>
-                  <button
-                    type="button"
-                    class="btn btn-sm btn-outline-primary"
-                  >
-                    Code
-                  </button>
-                </div>
+              <div className="btn-group">
+                <button type="button" className="btn btn-sm btn-outline-primary">
+                  App
+                </button>
+                <button type="button" className="btn btn-sm btn-outline-primary">
+                  Code
+                </button>
+              </div>
             </div>
           </div>
         </div>

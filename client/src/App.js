@@ -6,11 +6,12 @@ import Works from "./components/Works";
 
 function App() {
   return (
-    <div className="App light-blue">
+    <div className="App sky">
     <NavBar />
     <IntroHero />
     <div class="b-example-divider"></div>
     <Works />
+    <div class="b-example-divider"></div>
     </div>
   );
 }
