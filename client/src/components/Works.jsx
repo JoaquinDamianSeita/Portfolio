@@ -3,21 +3,22 @@ import React from "react";
 function Works() {
   return (
     <div className="container sky my-5 px-5 shadow-ext" id="portfolio">
-      <h1 className="display-5 fw-bold text-center">Portfolio</h1>
+      <h1 className="display-5 fw-bold text-center title-cv">Portfolio</h1>
       <img
         className="d-block mx-auto mb-4 mt-3"
         src={process.env.PUBLIC_URL + "/images/divider.svg"}
         alt="divider"
       />
-      <div className="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-3 my-5">
+      <div className="row row-cols-1 row-cols-sm-1 row-cols-md-3 g-3 my-5 px-5">
         <div className="col text-center">
           <div className="card" style={{ backgroundColor: "#28b5b5", border:0 }}>
             <img
               className="d-block mx-auto sky my-4"
-              src={process.env.PUBLIC_URL + "/images/admin.png"}
+              src={process.env.PUBLIC_URL + "/images/admin.svg"}
               alt="coder"
               width="150"
               height="150"
+              color="#fff"
             />
             <div className="card-body sky">
               <p className="card-text">
@@ -26,10 +27,10 @@ function Works() {
                 longer. ADMIN MERN APP
               </p>
               <div className="btn-group">
-                <button type="button" className="btn btn-sm btn-outline-primary">
+                <button type="button" className="btn btn-sm btn-dark">
                   App
                 </button>
-                <button type="button" className="btn btn-sm btn-outline-primary">
+                <button type="button" className="btn btn-sm btn-dark">
                   Code
                 </button>
               </div>
@@ -41,7 +42,7 @@ function Works() {
           <div className="card" style={{ backgroundColor: "#28b5b5",border:0 }}>
             <img
               className="d-block mx-auto sky my-4"
-              src={process.env.PUBLIC_URL + "/images/tindog.png"}
+              src={process.env.PUBLIC_URL + "/images/tindog.svg"}
               alt="coder"
               width="150"
               height="150"
@@ -53,10 +54,10 @@ function Works() {
                 longer. BLOG
               </p>
               <div className="btn-group">
-                <button type="button" className="btn btn-sm btn-outline-primary">
+                <button type="button" className="btn btn-sm btn-dark">
                   App
                 </button>
-                <button type="button" className="btn btn-sm btn-outline-primary">
+                <button type="button" className="btn btn-sm btn-dark">
                   Code
                 </button>
               </div>
@@ -68,7 +69,7 @@ function Works() {
           <div className="card" style={{ backgroundColor: "#28b5b5",border:0 }}>
             <img
               className="d-block mx-auto sky my-4"
-              src={process.env.PUBLIC_URL + "/images/blog.png"}
+              src={process.env.PUBLIC_URL + "/images/blog.svg"}
               alt="coder"
               width="150"
               height="150"
@@ -80,10 +81,10 @@ function Works() {
                 longer. TINDOG
               </p>
               <div className="btn-group">
-                <button type="button" className="btn btn-sm btn-outline-primary">
+                <button type="button" className="btn btn-sm btn-dark">
                   App
                 </button>
-                <button type="button" className="btn btn-sm btn-outline-primary">
+                <button type="button" className="btn btn-sm btn-dark">
                   Code
                 </button>
               </div>

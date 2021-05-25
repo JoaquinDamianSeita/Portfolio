@@ -6,7 +6,7 @@ import {
 
 function NavBar() {
   return (
-    <Navbar className="dark-blue" variant="dark">
+    <Navbar className="black" variant="dark">
       <div className="container">
       <Navbar.Brand href="#">Joaquin</Navbar.Brand>
         <Nav className="ml-auto">
