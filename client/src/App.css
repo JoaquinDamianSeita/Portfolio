@@ -24,23 +24,63 @@
   -webkit-text-fill-color: transparent;
 }
 
+.btn-custom-boots {
+  display: inline-block;
+  font-weight: 400;
+  line-height: 1.5;
+  color: #212529;
+  text-align: center;
+  text-decoration: none;
+  vertical-align: middle;
+  cursor: pointer;
+  -webkit-user-select: none;
+  user-select: none;
+  background-color: #000;
+  border: 1px solid transparent;
+  padding: 0.375rem 0.75rem;
+  font-size: 1rem;
+  border-radius: 0.25rem;
+  transition: color 0.15s ease-in-out, background-color 0.15s ease-in-out, border-color 0.15s ease-in-out, box-shadow 0.15s ease-in-out;
+}
+
+.btn-custom-boots:hover{
+  background-color: rgb(10, 10, 10);
+}
+
+@media (min-width: 900px){
+  .goodbye-text{
+    margin: auto;
+    width:35%;
+  }
+}
+
+
 @media (max-width: 900px) and (min-width: 660px) {
   .name {
     padding-top: 40%;
+  }
+  .goodbye-text{
+    margin: auto;
+    width:40%;
   }
 }
 @media (max-width: 659px) and (min-width: 200px) {
   .name {
     padding-top: 65%;
   }
+  .goodbye-text{
+    margin:auto;
+    width:80%;
+  }
 }
+
 
 .App {
   color: #111111;
 }
 
 .black {
-  background-color: #000;
+  background: #000;
 }
 
 .dark {
@@ -53,6 +93,10 @@
 
 .light {
   background-color: #4d91b3;
+}
+
+.purple{
+  background-color: #43065c;
 }
 
 .shadow-ext {
@@ -86,13 +130,39 @@
     margin-left: 20%;
 }
 
-.btn-cv {
-  background: #cf0ab5;
-  background: -webkit-linear-gradient(to bottom, #cf0ab5 0%, #0c47cf 100%);
-  background: -moz-linear-gradient(to bottom, #cf0ab5 0%, #0c47cf 100%);
-  background: linear-gradient(to bottom, #cf0ab5 0%, #0c47cf 100%);
-}
+
+
+
 
 .btn-cv b {
     color: #ffffff;
+}
+
+.white-text {
+  background: #fff;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+.goodbye-container{
+  background-color: #350349;
+  border: solid rgba(0, 0, 0, 0.15);
+  border-width: 1px 0;
+  box-shadow: inset 0 0.5em 2em rgb(0 0 0 / 10%),
+    inset 0 0.125em 0.5em rgb(0 0 0 / 15%);
+}
+
+.goodbye-title{
+  background: #0cc9cf;
+  background: -webkit-linear-gradient(to right, #0cc9cf 16%, #cf0ab5 100%);
+  background: -moz-linear-gradient(to right, #0cc9cf 16%, #cf0ab5 100%);
+  background: linear-gradient(to right, #0cc9cf 16%, #cf0ab5 100%);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+}
+
+
+
+.footer{
+  height: 3em;
 }

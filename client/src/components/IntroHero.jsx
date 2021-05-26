@@ -1,4 +1,5 @@
 import React from "react";
+import { Nav } from "react-bootstrap";
 
 function IntroHero() {
   return (
@@ -9,7 +10,7 @@ function IntroHero() {
           process.env.PUBLIC_URL + "/images/react-fondo.jpg"
         })`,
         backgroundPosition: "bottom",
-        minHeight:500,
+        minHeight: 500,
         backgroundRepeat: "no-repeat",
       }}
     >
@@ -22,8 +23,8 @@ function IntroHero() {
       <div className="col-lg-6 mx-auto">
         <p className="lead mb-4 desc">Full-Stack MERN Developer</p>
         <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" className="btn btn-dark btn-lg px-4 gap-3" style={{backgroundColor:"#000"}}>
-            <b className="name">Contactame!</b>
+          <button type="button" className="btn-custom-boots btn-lg px-4 gap-3">
+            <b className="desc">Descargar CV!</b>
           </button>
         </div>
       </div>
