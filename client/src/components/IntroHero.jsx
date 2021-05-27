@@ -1,7 +1,12 @@
 import React from "react";
-import { Nav } from "react-bootstrap";
 
 function IntroHero() {
+
+  function handleClick (e){
+    e.preventDefault();
+  };
+
+
   return (
     <div
       className="px-4 py-5 text-center shadow-in"
@@ -24,7 +29,7 @@ function IntroHero() {
         <p className="lead mb-4 desc">Full-Stack MERN Developer</p>
         <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
           <button type="button" className="btn-custom-boots btn-lg px-4 gap-3">
-            <b className="desc">Descargar CV!</b>
+            <b className="desc"> <a download href={process.env.PUBLIC_URL + "/images/Joaquin_Damian_Seita.pdf"}>Descargar CV!</a></b>
           </button>
         </div>
       </div>

@@ -4,7 +4,7 @@ function Contact() {
   
   return (
     <div class="container-fluid px-4 py-5 purple">
-      <h1 className="display-5 fw-bold mb-3 title-cv text-center">
+      <h1 className="display-5 fw-bold mb-3 name text-center" style={{paddingTop:0}}>
         Contactame!
       </h1>
       <img

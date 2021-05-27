@@ -25,9 +25,8 @@ function Works() {
             />
             <div className="card-body sky">
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer. ADMIN MERN APP
+                ADMIN MERN APP es una aplicación web que permite agendar
+                clientes y asociar a ellos contenido como ordenes de trabajo.
               </p>
 
               <button type="button" className="btn-custom-boots">
@@ -54,9 +53,8 @@ function Works() {
             />
             <div className="card-body sky">
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer. BLOG
+                BLOG permite publicar articulos o contenido personalizado con
+                diversas ideas que consideres compartir con los demas.
               </p>
               <div className="btn-group">
                 <button type="button" className="btn-custom-boots">
@@ -84,12 +82,11 @@ function Works() {
             />
             <div className="card-body sky">
               <p className="card-text">
-                This is a wider card with supporting text below as a natural
-                lead-in to additional content. This content is a little bit
-                longer. TINDOG
+                TINDOG es la presentación de una aplicacion clon de tinder pero
+                orientado a encontrar la mascota perfecta para nosotros :D
               </p>
               <div className="btn-group">
-              <button type="button" className="btn-custom-boots">
+                <button type="button" className="btn-custom-boots">
                   <b className="name">App</b>
                 </button>
                 <button type="button" className="btn-custom-boots mx-1">
