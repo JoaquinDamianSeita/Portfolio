@@ -55,6 +55,10 @@
   .name{
     padding-top: 25%;
   }
+  .goodbye-text{
+    margin: auto;
+    width:35%;
+  }
 }
 
 @media (min-width: 899px) and (max-width:1300px){
