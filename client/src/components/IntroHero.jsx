@@ -2,20 +2,16 @@ import React from "react";
 
 function IntroHero() {
 
-  function handleClick (e){
-    e.preventDefault();
-  };
-
 
   return (
     <div
-      className="px-4 py-5 text-center shadow-in"
+      className="px-4 py-5 text-center shadow-in intro-container"
       style={{
         backgroundImage: `url(${
           process.env.PUBLIC_URL + "/images/react-fondo.jpg"
         })`,
         backgroundPosition: "bottom",
-        minHeight: 500,
+        minHeight: 550,
         backgroundRepeat: "no-repeat",
       }}
     >

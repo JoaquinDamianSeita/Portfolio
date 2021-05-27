@@ -5,6 +5,9 @@
   font-family: "Roboto", sans-serif;
 }
 
+
+
+
 .name {
   background: #0cc9cf;
   background: -webkit-linear-gradient(to right, #0cc9cf 16%, #cf0ab5 100%);
@@ -47,10 +50,20 @@
   background-color: rgb(10, 10, 10);
 }
 
-@media (min-width: 900px){
+
+@media (min-width:1301){
+  .name{
+    padding-top: 25%;
+  }
+}
+
+@media (min-width: 899px) and (max-width:1300px){
   .goodbye-text{
     margin: auto;
     width:35%;
+  }
+  .name{
+    padding-top: 28%;
   }
 }
 
@@ -66,7 +79,7 @@
 }
 @media (max-width: 659px) and (min-width: 200px) {
   .name {
-    padding-top: 65%;
+    padding-top: 80%;
   }
   .goodbye-text{
     margin:auto;
