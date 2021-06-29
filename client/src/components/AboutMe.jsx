@@ -21,7 +21,7 @@ function AboutMe() {
           <img
             className="sky my-4"
             src={process.env.PUBLIC_URL + "/images/MERN-logo.png"}
-            alt="coder"
+            alt="MERN stack MongoDB Express React Nodejs"
             width="100%"
             height="80%"
           />

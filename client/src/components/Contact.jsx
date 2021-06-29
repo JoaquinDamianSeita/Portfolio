@@ -18,7 +18,7 @@ function Contact() {
             <img
               className="d-block mx-auto"
               src={process.env.PUBLIC_URL + "/images/whatsapp.svg"}
-              alt="coder"
+              alt="whatsapp contacto mensaje"
               width="25%"
               height="25%"
             />
@@ -35,7 +35,7 @@ function Contact() {
             <img
               className="d-block mx-auto"
               src={process.env.PUBLIC_URL + "/images/gmail.svg"}
-              alt="coder"
+              alt="gmail mensaje contacto"
               width="25%"
               height="25%"
             />
@@ -52,7 +52,7 @@ function Contact() {
             <img
               className="d-block mx-auto"
               src={process.env.PUBLIC_URL + "/images/linkedin.svg"}
-              alt="coder"
+              alt="linkedin mensaje trabajo"
               width="25%"
               height="25%"
             />
@@ -69,7 +69,7 @@ function Contact() {
             <img
               className="d-block mx-auto"
               src={process.env.PUBLIC_URL + "/images/github.svg"}
-              alt="coder"
+              alt="github codigo"
               width="25%"
               height="25%"
             />
