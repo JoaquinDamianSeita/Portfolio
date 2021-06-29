@@ -29,7 +29,7 @@ function Works() {
                 clientes y asociar a ellos contenido como ordenes de trabajo.
               </p>
               <p style={{ color: "#A01D02", fontWeight: "bold" }}>
-                Proximamente!
+                Próximamente!
               </p>
               <a
                 target="_blank"
@@ -110,7 +110,7 @@ function Works() {
                 diversas ideas que consideres compartir con los demas.
               </p>
               <p style={{ color: "#A01D02", fontWeight: "bold" }}>
-                Proximamente!
+                Próximamente!
               </p>
               <div className="btn-group">
                 <a
