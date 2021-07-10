@@ -109,13 +109,10 @@ function Works() {
                 BLOG permite publicar articulos o contenido personalizado con
                 diversas ideas que consideres compartir con los demas.
               </p>
-              <p style={{ color: "#A01D02", fontWeight: "bold" }}>
-                Próximamente!
-              </p>
               <div className="btn-group">
                 <a
                   target="_blank"
-                  href="https://github.com/JoaquinDamianSeita/Blog-MERN-App"
+                  href="https://blog-mern-app-js.herokuapp.com/"
                 >
                   <button type="button" className="btn-custom-boots">
                     <b className="name">App</b>
@@ -124,7 +121,7 @@ function Works() {
 
                 <a
                   target="_blank"
-                  href="https://github.com/JoaquinDamianSeita/Blog-MERN-App"
+                  href="https://github.com/JoaquinDamianSeita/Blog-app-deploy"
                 >
                   <button type="button" className="btn-custom-boots mx-1">
                     <b className="name">Code</b>
