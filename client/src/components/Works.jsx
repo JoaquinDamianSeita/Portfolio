@@ -17,41 +17,38 @@ function Works() {
           >
             <img
               className="d-block mx-auto sky my-4"
-              src={process.env.PUBLIC_URL + "/images/admin.svg"}
-              alt="admin app"
+              src={process.env.PUBLIC_URL + "/images/blog.svg"}
+              alt="blog app"
               width="150"
               height="150"
-              color="#fff"
             />
             <div className="card-body sky">
               <p className="card-text">
-                ADMIN MERN APP es una aplicación web que permite agendar
-                clientes y asociar a ellos contenido como ordenes de trabajo.
+                BLOG permite publicar articulos o contenido personalizado con
+                diversas ideas que consideres compartir con los demas.
               </p>
-              <p style={{ color: "#A01D02", fontWeight: "bold" }}>
-                Próximamente!
-              </p>
-              <a
-                target="_blank"
-                href="https://github.com/JoaquinDamianSeita/Admin-MERN-app"
-              >
-                <button type="button" className="btn-custom-boots">
-                  <b className="name">App</b>
-                </button>
-              </a>
+              <div className="btn-group">
+                <a
+                  target="_blank"
+                  href="https://blog-mern-app-js.herokuapp.com/"
+                >
+                  <button type="button" className="btn-custom-boots">
+                    <b className="name">App</b>
+                  </button>
+                </a>
 
-              <a
-                target="_blank"
-                href="https://github.com/JoaquinDamianSeita/Admin-MERN-app"
-              >
-                <button type="button" className="btn-custom-boots mx-1">
-                  <b className="name">Code</b>
-                </button>
-              </a>
+                <a
+                  target="_blank"
+                  href="https://github.com/JoaquinDamianSeita/Blog-app-deploy"
+                >
+                  <button type="button" className="btn-custom-boots mx-1">
+                    <b className="name">Code</b>
+                  </button>
+                </a>
+              </div>
             </div>
           </div>
         </div>
-
         <div className="col text-center">
           <div
             className="card"
@@ -91,7 +88,6 @@ function Works() {
             </div>
           </div>
         </div>
-
         <div className="col text-center">
           <div
             className="card"
@@ -99,35 +95,37 @@ function Works() {
           >
             <img
               className="d-block mx-auto sky my-4"
-              src={process.env.PUBLIC_URL + "/images/blog.svg"}
-              alt="blog app"
+              src={process.env.PUBLIC_URL + "/images/admin.svg"}
+              alt="admin app"
               width="150"
               height="150"
+              color="#fff"
             />
             <div className="card-body sky">
               <p className="card-text">
-                BLOG permite publicar articulos o contenido personalizado con
-                diversas ideas que consideres compartir con los demas.
+                ADMIN MERN APP es una aplicación web que permite agendar
+                clientes y asociar a ellos contenido como ordenes de trabajo.
               </p>
-              <div className="btn-group">
-                <a
-                  target="_blank"
-                  href="https://blog-mern-app-js.herokuapp.com/"
-                >
-                  <button type="button" className="btn-custom-boots">
-                    <b className="name">App</b>
-                  </button>
-                </a>
+              <p style={{ color: "#A01D02", fontWeight: "bold" }}>
+                Próximamente!
+              </p>
+              <a
+                target="_blank"
+                href="https://github.com/JoaquinDamianSeita/Admin-MERN-app"
+              >
+                <button type="button" className="btn-custom-boots">
+                  <b className="name">App</b>
+                </button>
+              </a>
 
-                <a
-                  target="_blank"
-                  href="https://github.com/JoaquinDamianSeita/Blog-app-deploy"
-                >
-                  <button type="button" className="btn-custom-boots mx-1">
-                    <b className="name">Code</b>
-                  </button>
-                </a>
-              </div>
+              <a
+                target="_blank"
+                href="https://github.com/JoaquinDamianSeita/Admin-MERN-app"
+              >
+                <button type="button" className="btn-custom-boots mx-1">
+                  <b className="name">Code</b>
+                </button>
+              </a>
             </div>
           </div>
         </div>

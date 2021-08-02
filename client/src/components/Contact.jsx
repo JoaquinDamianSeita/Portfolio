@@ -1,10 +1,12 @@
 import React, { useRef } from "react";
 
 function Contact() {
-  
   return (
     <div class="container-fluid px-4 py-5 purple">
-      <h1 className="display-5 fw-bold mb-3 name text-center" style={{paddingTop:0}}>
+      <h1
+        className="display-5 fw-bold mb-3 name text-center"
+        style={{ paddingTop: 0 }}
+      >
         Contactame!
       </h1>
       <img
@@ -21,13 +23,24 @@ function Contact() {
               alt="whatsapp contacto mensaje"
               width="25%"
               height="25%"
+              style={{ cursor: "pointer" }}
+              onClick={() =>
+                window.open(
+                  "https://wa.me/1133994380?text=Hola%Joaquin%te%contacto%desde%tu%portfolio",
+                  "_blank"
+                )
+              }
             />
           </div>
           <div>
             <h4 class="fw-bold d-block text-center mt-4 white-text">
               Whatsapp
             </h4>
-            <h5 className="d-block text-center white-text"><a href="https://wa.me/1133994380?text=Hola%Joaquin%te%contacto%desde%tu%portfolio">+54 11-3399-4380</a></h5>
+            <h5 className="d-block text-center white-text">
+              <a href="https://wa.me/1133994380?text=Hola%Joaquin%te%contacto%desde%tu%portfolio">
+                +54 11-3399-4380
+              </a>
+            </h5>
           </div>
         </div>
         <div class="col">
@@ -38,12 +51,19 @@ function Contact() {
               alt="gmail mensaje contacto"
               width="25%"
               height="25%"
-            />
+              style={{ cursor: "pointer" }}
+              onClick={() =>
+                window.open("mailto:joaquindamianseita@gmail.com", "_blank")
+              }
+            ></img>
           </div>
           <div>
             <h4 class="fw-bold d-block text-center mt-4 white-text">Gmail</h4>
             <h5 className="d-block text-center white-text">
-              <a href="mailto:joaquindamianseita@gmail.com"> joaquindamianseita@gmail.com</a>
+              <a href="mailto:joaquindamianseita@gmail.com">
+                {" "}
+                joaquindamianseita@gmail.com
+              </a>
             </h5>
           </div>
         </div>
@@ -55,13 +75,24 @@ function Contact() {
               alt="linkedin mensaje trabajo"
               width="25%"
               height="25%"
+              style={{ cursor: "pointer" }}
+              onClick={() =>
+                window.open(
+                  "https://www.linkedin.com/in/joaquindamianseita/",
+                  "_blank"
+                )
+              }
             />
           </div>
           <div>
             <h4 class="fw-bold d-block text-center mt-4 white-text">
               Linkedin
             </h4>
-            <h5 className="d-block text-center white-text"><a href="https://www.linkedin.com/in/joaquindamianseita/">/joaquindamianseita</a></h5>
+            <h5 className="d-block text-center white-text">
+              <a href="https://www.linkedin.com/in/joaquindamianseita/">
+                /joaquindamianseita
+              </a>
+            </h5>
           </div>
         </div>
         <div class="col">
@@ -72,11 +103,19 @@ function Contact() {
               alt="github codigo"
               width="25%"
               height="25%"
+              style={{ cursor: "pointer" }}
+              onClick={() =>
+                window.open("https://github.com/JoaquinDamianSeita", "_blank")
+              }
             />
           </div>
           <div>
             <h4 class="fw-bold d-block text-center mt-4 white-text">Github</h4>
-            <h5 className="d-block text-center white-text"><a href="https://github.com/JoaquinDamianSeita">/JoaquinDamianSeita</a></h5>
+            <h5 className="d-block text-center white-text">
+              <a href="https://github.com/JoaquinDamianSeita">
+                /JoaquinDamianSeita
+              </a>
+            </h5>
           </div>
         </div>
       </div>
