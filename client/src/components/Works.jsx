@@ -95,23 +95,23 @@ function Works() {
           >
             <img
               className="d-block mx-auto sky my-4"
-              src={process.env.PUBLIC_URL + "/images/admin.svg"}
-              alt="admin app"
+              src={process.env.PUBLIC_URL + "/images/money_4.svg"}
+              alt="CuentasClaras app"
               width="150"
               height="150"
               color="#fff"
             />
             <div className="card-body sky">
               <p className="card-text">
-                ADMIN MERN APP es una aplicación web que permite agendar
-                clientes y asociar a ellos contenido como ordenes de trabajo.
+                CUENTAS CLARAS APP es una aplicacion sencilla para administrar gastos personales.
+                (Base de datos en MySQL)
               </p>
-              <p style={{ color: "#A01D02", fontWeight: "bold" }}>
+              {/* <p style={{ color: "#A01D02", fontWeight: "bold" }}>
                 Próximamente!
-              </p>
+              </p> */}
               <a
                 target="_blank"
-                href="https://github.com/JoaquinDamianSeita/Admin-MERN-app"
+                href="https://cuentas-claras-app.herokuapp.com/"
               >
                 <button type="button" className="btn-custom-boots">
                   <b className="name">App</b>
@@ -120,7 +120,7 @@ function Works() {
 
               <a
                 target="_blank"
-                href="https://github.com/JoaquinDamianSeita/Admin-MERN-app"
+                href="https://github.com/JoaquinDamianSeita/CuentasClaras-app"
               >
                 <button type="button" className="btn-custom-boots mx-1">
                   <b className="name">Code</b>
