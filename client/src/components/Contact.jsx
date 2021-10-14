@@ -7,7 +7,7 @@ function Contact() {
         className="display-5 fw-bold mb-3 name text-center"
         style={{ paddingTop: 0 }}
       >
-        Contactame!
+        ¡Contactame!
       </h1>
       <img
         className="d-block mx-auto mb-4 mt-3"

@@ -1,8 +1,6 @@
 import React from "react";
 
 function IntroHero() {
-
-
   return (
     <div
       className="px-4 py-5 text-center shadow-in intro-container"
@@ -24,8 +22,14 @@ function IntroHero() {
       <div className="col-lg-6 mx-auto">
         <p className="lead mb-4 desc">Full-Stack MERN Developer</p>
         <div className="d-grid gap-2 d-sm-flex justify-content-sm-center">
-          <button type="button" className="btn-custom-boots btn-lg px-4 gap-3">
+          {/* <button type="button" className="btn-custom-boots btn-lg px-4 gap-3">
             <b className="desc"> <a download href={process.env.PUBLIC_URL + "/images/Joaquin_Damian_Seita.pdf"}>Descargar CV!</a></b>
+          </button> */}
+          <button type="button" className="btn-custom-boots btn-lg px-4 gap-3">
+            <b className="desc">
+              {" "}
+              <a href="#contacto">¡Contactame!</a>
+            </b>
           </button>
         </div>
       </div>

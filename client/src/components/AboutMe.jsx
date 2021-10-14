@@ -9,9 +9,7 @@ function AboutMe() {
 
           <p className="col-lg-10 fs-4">
             Soy un desarrollador web actualmente trabajando con el 
-            stack MERN. Estoy abierto a cualquier posibilidad laboral que me
-            permita demostrar mis habilidades aprendidas como así también
-            adquirir experiencia profesional. Me describo como una persona
+            stack MERN. Me describo como una persona
             responsable, con gran capacidad de adaptación y aprendizaje.
           </p>
         </div>
